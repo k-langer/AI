@@ -1,0 +1,26 @@
+Kevin Langer
+CS4100
+A2
+Prereq: 
+    Python 2.7 or Pypy
+    prover9 (on ubuntu: apt-get install prover9)
+    a file wumpus_world.txt in the same folder
+Install & Run:
+    ./A2 [prover9 path]
+    NOTE: without a path it assumes that prover9 is in the path
+About:
+    wumpus_world.txt contains a map specified size given by M**, an agent
+    specified with A** and a goal that is reachable specified by GO**. 
+    Other features could include a single wumpus W**, a pit P**, and stench
+    S** and breezes G** that are specified exactly as adjacent to the wumpus
+    and pit. The map could also contain gold anywhere on the map. The amount of
+    gold on the map is unknown to the agent. Actually, only the goal, agent location,
+    and size of map are known by the agent. Everything else has to be uncovered by
+    exploring the world.
+Algorithm:
+    Logical inference in FOL for finding safe adjacent squares
+    Logical inference in FOL for finding all safe squares
+    Logical inference in FOL for finding the location of the wumpus
+    A* search to find the best path from any two cells
+    Heuristic to find the likely closest cell in a list of cells
+

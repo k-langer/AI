@@ -1,0 +1,17 @@
+Kevin Langer
+CS4100
+A1 
+Prereq: 
+    Python 2.7 or Pypy
+Install & Run:
+    ./ticktacktoe
+About:
+Board: 
+      1  2  3
+   1  X  -  -
+   2  -  X  -
+   3  -  O  O
+
+Play by entering an index from 1-3
+Computer will try to beat you. It
+is impossible for the player to win. 

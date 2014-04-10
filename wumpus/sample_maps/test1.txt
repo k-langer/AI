@@ -1,0 +1,35 @@
+M53
+
+A11
+
+P13
+
+B12
+
+B23
+
+S21
+
+W31
+
+S32
+
+B32
+
+G41
+
+B23
+
+P33
+
+GO43
+
+B43
+
+S41 
+
+%Comments: Map below 
+%                p   |           b   v     |                 p   |   G     a b   v     | 
+%          b   v     |               v     |           b   v   s |               v     | 
+%              v     |         a     v   s |             w v     |               v     | 
+
